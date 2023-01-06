@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@keyframes animacao-body {
+    0% {background-color: white;}
+    50%{background-color: #7fd1da;}
+    60%{background-color: #55ffea;}
+    70%{background-color: #2aeaff;}
+    80%{background-color: #1b96a3;}
+    90%{background-color: #80eaff;}
+}
+
+body{
+     background-color: white;
+     color: black;
+     animation-name: animacao-body;
+     animation-duration: 12s;
+     animation-delay: 2s;
+     animation-iteration-count: infinite;
+}
+
+.codigo-descri{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+.redes{
+    text-decoration: none;   
+    margin-bottom: 30px;   
+   
+}
+
+.botoes-redes{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    width: 100%;
+}
+
+.foto01{    
+    margin-top: 30px;    
+    width: 200px;   
+    margin: 0 auto;
+}
+
+.foto01 > img{
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.button{
+   font-size: 20px;
+   padding:  1em;
+   width: 17em;
+   border-radius: 15px;
+   background-color: #00ffeabd;
+}
+
+
+.button:hover {
+    background-color: #1266da;
+    transition: .4s;
+}
+
